@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FirstFragment"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold"
+        android:text="@string/firstexample"
+        android:textColor="@color/black"
+        android:textSize="24sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <com.example.watchcustomview.view.Watch
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            app:textColor="@color/textColor1"
+            app:backgroundColor="@color/bgc1"
+            app:lineColor="@color/line1"
+            app:arrowsColor="@color/arrows1"
+            app:centerColor="@color/line1"/>
+    </LinearLayout>
+
+</LinearLayout>

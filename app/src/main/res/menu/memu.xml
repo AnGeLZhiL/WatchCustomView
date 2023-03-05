@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/firstFragment2"
+        android:title="1"
+        android:icon="@drawable/ic_first_menu"/>
+    <item android:id="@+id/secondFragment2"
+        android:title="2"
+        android:icon="@drawable/ic_second_menu"/>
+    <item android:id="@+id/thirdFragment2"
+        android:title="3"
+        android:icon="@drawable/ic_third_menu"/>
+</menu>

@@ -1,3 +1,8 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">WatchCustomView</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="secondexample" tools:ignore="ExtraTranslation">Пример второй:</string>
+    <string name="firstexample" tools:ignore="ExtraTranslation">Пример первый:</string>
+    <string name="thirdtexample" tools:ignore="ExtraTranslation">Пример третий:</string>
 </resources>

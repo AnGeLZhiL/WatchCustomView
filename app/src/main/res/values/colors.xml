@@ -11,4 +11,9 @@
     <color name="arrows1">#5155D3</color>
     <color name="textColor1">#BABABA</color>
     <color name="line1">#0E3AA6</color>
+    <color name="bgc2">#A6A6A6</color>
+    <color name="arrows2">#5417C5</color>
+    <color name="textColor2">#180035</color>
+    <color name="line2">#9F40FF</color>
+    <color name="menuColor">#BCC3D5</color>
 </resources>
